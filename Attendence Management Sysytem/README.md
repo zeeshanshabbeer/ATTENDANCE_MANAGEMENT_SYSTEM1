@@ -1,4 +1,4 @@
-PROJECT NAME: Attendance Management System
+PROJECT NAME: Attendance Management System <br>
 [Project Link](https://www.freeprojectz.com/uml-diagram/attendance-management-system-uml-diagram)
 
 ## Available Scripts
@@ -95,29 +95,3 @@ It is simply to manage the Student attendance, Leaves and Holiday. Admin add hol
     Admin has access to delete the holiday. it delete the specific employee holiday by his/her unique id.
 4. **Edit_Holiday**
     Admin has access to change the holiday day,description.
-
-
-
-
-
-=>SINGNUP
-==>LOGIN
-==>PROFILE (ADMIN VIEW PROFILE,ADMIN VIEW SPECIFIC USER PROFILE,
-==>UPDATE PROFILE (UPDATE PASSWORD,UPDATE CONTACT no)
-==>logout
-==>RESET PASSSWORD LINK (SENDGRID)
-==>RESET PASSWORD
-===================holiday============
-==>ADD HOLIDAY
-==>VIEW HOLIDAY
-===>DELETE HOLIDAY
-===>EDIT HOLIDAY
-
-==================LEAVES==============
-==>STUDENT (REQUEST FOR LEAVE, VIEW LEAVES)
-==>ADMIN  (ADD LEAVE REQUEST, VIEW ALL LEAVE REQUEST,ACCEPT OR REJECT LEAVE, DELETE LEAVES)
-==============ATTENDANCE============
-==>ADMIN ENROLL STUDENT FOR ATTENDANCE
-==> STUDENT ATTENDANCE (REQUEST ATTEDANCE, VIEW ATTENDANCE)
-==>TEACHER (VIEW STUDENT ATTENDANCE REQUEST, VIEW SPECIFIC STUDENT REQUEST, ACCEPT OR REJECT ATTENDANCE REQUEST)
-===>ADMIN (VIEW STUDENT REQUEST, VIEW SPECIFIC STUDENT REQUEST, ACCEPT OR REJECT ATTENDANCE REQUEST, VIEW ATTENDANCE OF ALL STUDENT AND SPECIFIC STUDENT, ALSO CHANGE ATTENDANCE,)
