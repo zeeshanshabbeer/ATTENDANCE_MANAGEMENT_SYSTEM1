@@ -1,4 +1,4 @@
-# PROJECT NAME: Attendance Management System 
+# Project Name: Attendance Management System 
 <br>
 [Project Link](https://www.freeprojectz.com/uml-diagram/attendance-management-system-uml-diagram)
 
