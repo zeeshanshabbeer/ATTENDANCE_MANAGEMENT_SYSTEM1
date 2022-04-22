@@ -20,7 +20,7 @@ It is simply to manage the Student attendance, Leaves and Holiday. Admin add hol
 5. `/updateContactNo` -Everyone change his/her contact No.
 6. `/logout` -Simply logout from the system. In this clear the cookies.
 7. `/resetPassword` -Verify the token that send through the email. Then rest the password.
-8. `/resetPasswordLink` -Resest password link send on email to change the password through email.
+8. `/resetPasswordLink` -Resest password link send on email to change the password through email (mailTrap).
 9. `/View_Student_profile` -Teacher view all the student profile.
 10. `/View_Specific_Student_profile/:user_id` -Teacher view the profile of every student through Student unique id (user_id).
 11. `/Admin_viewProfile` -Admin view the student and teacher profile.
