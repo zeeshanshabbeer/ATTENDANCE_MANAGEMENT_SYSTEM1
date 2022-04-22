@@ -1,6 +1,5 @@
 const User=require("../models/userModel")
 const catchAsync = require("../utils/catchAsync")
-const sendEmail=require("../utils/sendEmail")
 const bcrypt=require("bcryptjs")
 const crypto=require("crypto")
 const AppError = require("../utils/appError")
@@ -29,9 +28,6 @@ exports.resetPassword=catchAsync(async(req,res,next)=>{
               400)
             )  
           }else{
-            // const isMatch=await student.matchPassword(new_password,student.user_password)
-            // console.log(new_password)
-            // console.log(student.user_password)
             const isMatch=await student.matchPassword(new_password)
             // console.log(`isMatch === ${isMatch}`)
             if(isMatch){
@@ -107,7 +103,7 @@ exports.resetLink=catchAsync(async(req,res,next)=>{
               padding-bottom: 70px;
             "
           >
-            <h2>Cbsol</h2>
+            <h2>CbSol</h2>
             <h4 style="margin-top: -20px">Attendance Management System</h4>
             <div>
               <div
@@ -142,7 +138,7 @@ exports.resetLink=catchAsync(async(req,res,next)=>{
                     RESET YOUR PASSWORD
                   </button>
                   <h4 style="margin-top: 40px; font-size: 15px">Regards,</h4>
-                  <h4 style="margin-top: -20px; font-size: 15px">Cbsol Team</h4>
+                  <h4 style="margin-top: -20px; font-size: 15px">CbSol Team</h4>
                 </form>
               </div>
             </div>
